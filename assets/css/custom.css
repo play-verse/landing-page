@@ -154,3 +154,57 @@ span.light:before {
 .btn-visit::before {
     background: rgb(196, 10, 10);
 }
+
+.heart-pv {
+    color: rgb(255, 144, 162);
+    text-shadow: 0 6px 6px rgb(253, 200, 209);
+    font-size: 50px;
+}
+
+.best-features-area .single-features .features-icon span {
+    background-image: -moz-linear-gradient(90deg, rgb(250, 106, 106) 0%, rgb(231, 16, 16) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(250, 106, 106) 0%, rgb(231, 16, 16) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(250, 106, 106) 0%, rgb(231, 16, 16) 100%)
+}
+
+.services-caption.active {
+    border: 1px solid red;
+}
+
+.services-caption:hover { 
+    border: 1px solid red;
+}
+
+.service-area .services-caption .service-icon span{
+    background: red;
+}
+
+.services-caption:hover .service-icon span {
+    background: maroon;
+}
+
+.available-app-area {
+    background-image: -moz-linear-gradient(180deg, #ffc6c6 0%, #ff1818 100%);
+    background-image: -webkit-linear-gradient(180deg, #ffc6c6 0%, #ff1818 100%);
+    background-image: -ms-linear-gradient(180deg, #ffc6c6 0%, #ff1818 100%);
+}
+
+.app-shape-top {
+    border-radius: 100%;
+    background-color: #faa;
+}
+
+.soft-red {
+    background-color: rgb(247, 158, 158);
+}
+
+.best-features-area {
+    background: url(../img/background/banner-bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.service-area {
+    background: url(../img/background/3d-shap.png);
+    background-position: center;
+}
