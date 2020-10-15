@@ -2,6 +2,11 @@
     border-top-color: red !important;
 }
 
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
 span.light {
     display: block;
     position: absolute;
