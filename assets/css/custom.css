@@ -178,6 +178,7 @@ span.light:before {
 
 .services-caption:hover { 
     border: 1px solid red;
+    cursor: pointer;
 }
 
 .service-area .services-caption .service-icon span{
@@ -212,4 +213,17 @@ span.light:before {
 .service-area {
     background: url(../img/background/3d-shap.png);
     background-position: center;
+}
+
+.avatar-update {
+    transition: transform .2s, box-shadow .2s;
+}
+
+.avatar-update:hover {
+    transform: scale(1.2);
+    box-shadow: 0 3px 6px red;;
+}
+
+.service-cap {
+    margin-top: 5px;
 }

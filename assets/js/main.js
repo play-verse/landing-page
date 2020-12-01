@@ -1,6 +1,10 @@
 (function ($)
   { "use strict"
   
+  $(".services-caption").click(function(e){
+    window.open($(this).data('url'), "_blank");
+  });
+
 /* 1. Proloder */
     $(window).on('load', function () {
       $('#preloader-active').delay(450).fadeOut('slow');
