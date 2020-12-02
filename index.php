@@ -235,7 +235,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6">
                         <div class="section-tittle text-center">
-                            <h2 style="color: black;">Update and Announcement <i class="fas fa-star" style="color: yellow;"></i></h2>
+                            <h2 style="color: black;">Update and Announcement <i class="fa fa-star animated swing infinite" style="color: yellow;"></i></h2>
                         </div>
                     </div>
                 </div>
@@ -308,7 +308,7 @@
                                 <img class="avatar-update" src="https://forum.playverse.org/<?= $info[0]['avatar'] ?>" width="105" height="105" style="border-radius: 100px; position: relative;" alt="User" onerror="this.onerror=null; this.src=`https://i.ibb.co/gWGgmjX/logo-pv.png`;" />
                             </div>
                             <div class="service-cap">
-                                <h4><i class="fa fa-fire" style="color: red;"></i> <?= $info[0]['subject'] ?></h4>
+                                <h4><i class="fa fa-fire animated infinite tada" style="color: red;"></i> <?= $info[0]['subject'] ?></h4>
                                 <hr/>
                                 <p>
                                     Penulis: <b><?= $info[0]['username'] ?></b><br/>

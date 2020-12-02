@@ -212,8 +212,34 @@ span.light:before {
 
 .service-area {
     background: url(../img/background/3d-shap.png);
-    background-position: center;
+    background-position-y: 100%;
+    animation-name: backgroundChanges;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
+
+@-webkit-keyframes backgroundChanges {
+    0% {
+        background-position-y: 100%;
+    }
+    100% {
+        background-position-y: 0%;
+    }
+}
+
+@keyframes backgroundChanges {
+    0% {
+        background-position-y: 100%;
+    }
+    100% {
+        background-position-y: 0%;
+    }
+}
+
 
 .avatar-update {
     transition: transform .2s, box-shadow .2s;
