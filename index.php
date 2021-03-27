@@ -108,7 +108,7 @@
                                     <!-- Slider btn -->
                                     <div class="slider-btns">
                                         <!-- Hero-btn -->
-                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="samp://103.18.76.199:7777" class="play-button">
+                                        <a data-animation="fadeInLeft" data-delay="1.0s" href="samp://103.157.26.41:7777" class="play-button">
                                             <span class="light"></span>
                                             Play Now&emsp;<i class="fa fa-play-circle animated heartbeat infinite"></i>
                                         </a>
@@ -534,12 +534,13 @@
                     <div class="col-xl-5 col-lg-6">
                         <div class="app-caption">
                             <div class="section-tittle section-tittle3">
-                                <h2>We Available For PC and Android</h2>
-                                <p>The Android version is currently under development. We recommended you to use the PC version, While we develop the android ones. <br />
-                                    <i>Versi android saat ini sedang dibuat. Kami menyarankan anda untuk menggunakan versi PC, sementara hingga versi android selesai.</i></p>
+                                <h2>Didukung dengan system Voice</h2>
+                                <p>Dengan dukungan system voice, Kami berharap memberikan <i>experience ber-roleplay</i> yang menyenangkan di server kami.</p>
                                 <div class="app-btn">
-                                    <a href="https://wiki.playverse.org/docs/cara-bermain-samp" class="app-btn1" target="_blank"><img src="assets/img/shape/windows-badge.png" width="170" height="56" alt=""></a>
-                                    <a href="#coming-soon" class="app-btn2" target="_blank"><img src="assets/img/shape/android-badge.png" width="170" height="56" alt=""></a>
+                                <a href="https://wiki.playverse.org/docs/cara-bermain-samp" class="download-button" target="_blank">
+                                    <span class="light"></span>
+                                    Download&nbsp<i class="fa fa-download"></i>
+                                </a>
                                 </div>
                             </div>
                         </div>
