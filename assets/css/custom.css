@@ -160,6 +160,26 @@ span.light:before {
     background: rgb(196, 10, 10);
 }
 
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-image: -moz-linear-gradient(0deg, #87aa87 0%, #1f8a36 100%);
+    background-image: -webkit-linear-gradient(0deg, #87aa87 0%, #1f8a36 100%);
+    background-image: -ms-linear-gradient(0deg, #87aa87 0%, #1f8a36 100%);
+    box-shadow: 0px 13px 60px 0px rgba(219, 0, 0, 0.75);
+    width: 300px;
+    height: 94px;
+    border: 0;
+    position: relative;
+    padding: 0 40px;
+    cursor: pointer;
+    transition: all 0.23s ease-in-out;
+    -webkit-transition: all 0.23s ease-in-out;
+    -moz-transition: all 0.23s ease-in-out;   
+}
+
 .heart-pv {
     color: rgb(255, 144, 162);
     text-shadow: 0 6px 6px rgb(253, 200, 209);
