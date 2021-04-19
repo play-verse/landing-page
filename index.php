@@ -7,6 +7,7 @@
     <title>Meet Our Universe &bull; Playverse Official</title>
     <meta name="description" content="Meet Our Universe - Playverse Official Website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://wiki.playverse.org/img/logo.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
